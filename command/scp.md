@@ -56,7 +56,7 @@ scp -i amazon.pem ubuntu@10.10.10.10:/usr/local/openvpn_as/etc/exe/openvpn-conne
 ```
 从10.10.10.10机器上下载openvpn安装文件到本地当前目录来。
 
- **从远程机器复制到本地** 
+ **从远程机器复制目录到本地** 
 
 ```shell
 scp -r root@10.10.10.10:/opt/soft/mongodb /opt/soft/
